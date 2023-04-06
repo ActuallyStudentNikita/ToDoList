@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wrapper {
+    gap: 3rem;
+}
+
+.inp-second {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.btn-add {
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    max-width: 100px;
+    transition: .2s ease;
+    background-color: rgb(224, 166, 166);
+    -webkit-box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    transition: .2s ease;
+    background-color: rgb(237, 196, 196);
+}
+
+.block {
+    margin: 5% 30%;
+    padding: 3% 5%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 230, 230);
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+}
+
+.btn-edit {
+    display: flex;
+    flex-direction:row;
+    cursor: pointer;
+    max-width: 36px;
+    border: none;
+    background-color: rgb(224, 166, 166);
+    padding: 10px 12px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.25);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.25);
+    box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.311);
+    transition: .2s ease;
+}
+
+.btn-edit:hover {
+    transition: .2s ease;
+    background-color: rgb(237, 196, 196);
+}
+
+.btn-remove {
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    max-width: 100px;
+    transition: .2s ease;
+    background-color: rgb(224, 166, 166);
+    -webkit-box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 0px 18px 4px rgba(34, 60, 80, 0.3);
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    transition: .2s ease;
+    background-color: rgb(237, 196, 196);
+}
